@@ -1,16 +1,26 @@
-title: Main Assets
+title: 'Main Assets'
 path: assets
 url: /assets
 assets:
   img/black-bear-cubs.jpg:
-    title: Black Bear Cubs
-    alt: Some black bears standing up
+    title: 'Black Bear Cubs'
+    alt: 'Some black bears standing up'
   img/coffee-mug.jpg:
-    title: Coffee Mug
+    title: 'Coffee Mug'
   img/me.jpg:
     title: Me
-    alt: Niles Peppertrout
+    alt: 'Niles Peppertrout'
   img/redwood-sign.jpg:
-    title: redwood sign
+    title: 'redwood sign'
   img/desert.jpg:
     focus: 77-70
+  vaida-tamosauskaite-85608-unsplash.jpg:
+    focus: 44-47
+  luca-micheli-422053-unsplash.jpg:
+    focus: 39-68
+  liam-pozz-247954-unsplash.jpg:
+    focus: 48-26
+  ishan-seefromthesky-403804-unsplash.jpg:
+    focus: 15-39
+  agustin-diaz-185846-unsplash.jpg:
+    focus: 25-50

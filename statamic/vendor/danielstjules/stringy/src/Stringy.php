@@ -815,7 +815,7 @@ class Stringy implements \Countable, \IteratorAggregate, \ArrayAccess
         $stringy = $this->toAscii();
 
         $quotedReplacement = preg_quote($replacement);
-        $pattern = "/[^a-zA-Z\d\s-_$quotedReplacement]/u";
+        $pattern = '/[^a-zA-Z\d_]/u';
         $stringy->str = preg_replace($pattern, '', $stringy);
 
         return $stringy->toLowerCase()->delimit($replacement)

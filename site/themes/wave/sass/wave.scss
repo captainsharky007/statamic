@@ -1,0 +1,21 @@
+// Base
+@import "base/variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "base/typography";
+
+// Components
+@import "components/buttons";
+@import "components/footers";
+@import "components/navs";
+@import "components/panels";
+@import "components/players";
+@import "components/maps";
+
+// Elements
+@import "elements/forms";
+@import "elements/lists";
+@import "elements/tables";
+
+// Layouts
+@import "layouts/home";
+@import "layouts/globals";

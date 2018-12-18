@@ -1,0 +1,85 @@
+sections:
+  main:
+    display: Main
+    fields:
+      brad:
+        buttons:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - unorderedlist
+          - orderedlist
+          - removeformat
+          - quote
+          - superscript
+          - subscript
+          - anchor
+        style: sans
+        spellcheck: true
+        allow_source: true
+        allow_internal_links: true
+        link_noopener: false
+        link_noreferrer: false
+        target_blank: false
+        semantic_elements: false
+        restrict_assets: false
+        sets:
+          slider_with_text:
+            display: 'Slider with text'
+            fields:
+              slider:
+                mode: stacked
+                max_rows: 10
+                add_row: 'Add slide'
+                fields:
+                  image:
+                    container: main
+                    folder: /
+                    restrict: false
+                    max_files: 1
+                    type: assets
+                    display: image
+                  title:
+                    type: text
+                    display: title
+                    width: 50
+                  description:
+                    type: textarea
+                    display: description
+                    width: 50
+                type: grid
+                display: Slider
+              autoplay_after_load:
+                type: toggle
+                display: 'Autoplay after load'
+          slider_without_text:
+            display: 'Slider whitout text'
+            fields:
+              slider:
+                mode: table
+                max_rows: 10
+                add_row: 'Add slide'
+                fields:
+                  image:
+                    container: main
+                    folder: /
+                    restrict: false
+                    max_files: 1
+                    type: assets
+                    display: image
+                type: grid
+                display: Slider
+              autoplay_after_load:
+                type: toggle
+                display: 'Autoplay'
+        type: bard
+        display: brad
+taxonomies: true
+title: Brad

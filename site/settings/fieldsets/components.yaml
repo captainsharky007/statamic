@@ -1,0 +1,34 @@
+sections:
+  main:
+    display: Main
+    fields:
+      slider:
+        mode: table
+        fields:
+          image:
+            container: main
+            folder: /
+            restrict: false
+            max_files: 1
+            type: assets
+            display: image
+        type: grid
+        display: Slider
+      slider_with_text:
+        mode: table
+        add_row: 'Add Slide'
+        fields:
+          image:
+            container: main
+            folder: /
+            restrict: false
+            max_files: 1
+            type: assets
+            display: image
+          text:
+            type: textarea
+            display: text
+        type: grid
+        display: 'Slider with text'
+taxonomies: true
+title: Sliderss
