@@ -1,0 +1,10 @@
+sections:
+  main:
+    display: Main
+    fields:
+      company_name:
+        display: 'Company name'
+        type: text
+        localizable: true
+taxonomies: true
+title: Globals

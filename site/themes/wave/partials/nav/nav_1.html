@@ -1,0 +1,26 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand mr-5" href="{{ site_url }}"><img src="{{ navigation:logo }}" width="100px" alt="{{ globals:company_name }} logo"></a>
+  {{ locales }}<a href="{{ url }}" class="mr-3 {{ if is_current }}text-hide{{ /if }}">{{ locale:name }}</a>{{ /locales }}
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#{{ elementId }}" aria-controls="{{ elementId }}" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="{{ elementId }}">
+    <ul class="navbar-nav ml-auto mr-4">
+      {{ nav from="/" include_home="true" scope="tag" }}
+      <li class="nav-item {{ if children }} dropdown {{ /if}} {{ if is_current or is_parent }}active{{ /if }}" href="#">
+        <a class="nav-link{{ if children }} dropdown-toggle {{ /if }}" {{ if children }} id="navbarDropdown_{{ elementId }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" {{ /if }} href="{{ url }}">{{ tag:nav_title or title }}
+          <span class="sr-only">(current)</span></a>
+        {{ if children }}
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown_{{ elementId }}">
+          {{ children  }}
+          <a class="dropdown-item {{ if is_current }}active{{ /if }}" href="{{ url }}">{{ title }}</a>
+          {{ /children }}
+        </div>
+        {{ /if }}
+      </li>
+      {{ /nav }}
+    </ul>
+    <button class="btn btn-primary my-2 my-sm-0" type="submit">{{ navigation:call_to_action }}</button>
+  </div>
+</nav>

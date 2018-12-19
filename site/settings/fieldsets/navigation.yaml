@@ -1,0 +1,17 @@
+sections:
+  main:
+    display: Main
+    fields:
+      call_to_action:
+        type: text
+        localizable: true
+        display: 'Call to action text'
+      logo:
+        container: main
+        folder: /
+        restrict: false
+        max_files: 1
+        type: assets
+        display: Logo
+taxonomies: true
+title: Navigation
