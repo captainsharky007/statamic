@@ -2,11 +2,11 @@ locales:
   en:
     name: English
     full: en_US
-    url: /
+    url: /web/
   lv:
     full: lv_LV
     name: Latviski
-    url: /lv
+    url: /web/lv
 timezone: UTC
 date_format: 'F jS, Y'
 default_extension: md
