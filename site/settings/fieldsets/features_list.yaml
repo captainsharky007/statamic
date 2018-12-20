@@ -1,0 +1,17 @@
+sections:
+  main:
+    display: Main
+    fields:
+      feature:
+        sets:
+          feature:
+            display: Feature
+            fields:
+              field_1:
+                fieldset: feature
+                type: partial
+                display: 'Field 1'
+        type: replicator
+        display: Feature
+taxonomies: true
+title: 'Features list'

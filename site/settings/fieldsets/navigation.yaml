@@ -13,5 +13,32 @@ sections:
         max_files: 1
         type: assets
         display: Logo
+      field_3:
+        sets:
+          set_1:
+            display: 'Set 1'
+            fields:
+              field_1:
+                fieldset: components
+                type: partial
+                display: 'Field 1'
+          set_2:
+            display: 'Set 2'
+            fields:
+              field_1:
+                inline: false
+                type: radio
+                display: 'Field 1'
+              field_2:
+                container: main
+                folder: /
+                restrict: false
+                type: assets
+                display: 'Field 2'
+              field_3:
+                type: textarea
+                display: 'Field 3'
+        type: replicator
+        display: 'Field 3'
 taxonomies: true
 title: Navigation

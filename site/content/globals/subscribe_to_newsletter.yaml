@@ -1,0 +1,13 @@
+fields:
+  -
+    type: text
+    text: '<h3>Don''t miss the new stuff</h3><p>We will send a letter when a new version of software out or when a new headphones review or studio advice article is published.</p>'
+  -
+    type: form
+    form:
+      - subscribe
+color: dark
+background_color: secondary
+fieldset: call_to_action
+title: 'Subscribe to newsletter'
+id: d1d936b1-81c2-43f6-827a-8dc9b15ed08a

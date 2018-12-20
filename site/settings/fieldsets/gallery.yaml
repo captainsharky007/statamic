@@ -1,0 +1,17 @@
+sections:
+  main:
+    display: Main
+    fields:
+      gallery:
+        container: main
+        folder: /
+        restrict: false
+        mode: grid
+        type: assets
+        display: Gallery
+      images_in_row:
+        type: text
+        width: 25
+        display: 'Images in row'
+taxonomies: true
+title: Gallery

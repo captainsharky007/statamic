@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="New" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="True-Fi-Landing-with-Icons" transform="translate(-178.000000, -609.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="icon/play" transform="translate(178.000000, 609.000000)">
+                <path d="M16,0 C7.2,0 0,7.2 0,16 C0,24.8 7.2,32 16,32 C24.8,32 32,24.8 32,16 C32,7.2 24.8,0 16,0 Z M21.6,16.8 L13.6,22.8 C13.4,22.9 13.2,23 13,23 C12.8,23 12.7,23 12.6,22.9 C12.2,22.7 12,22.4 12,22 L12,10 C12,9.6 12.2,9.3 12.6,9.1 C12.9,8.9 13.3,9 13.6,9.2 L21.6,15.2 C21.9,15.4 22,15.7 22,16 C22,16.3 21.9,16.6 21.6,16.8 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -78,8 +78,19 @@ sections:
                 display: Slider
               autoplay_after_load:
                 type: toggle
-                display: 'Autoplay'
+                display: Autoplay
         type: bard
         display: brad
+      field_2:
+        sets:
+          set_1:
+            display: 'Set 1'
+            fields:
+              field_1:
+                fieldset: components
+                type: partial
+                display: 'Field 1'
+        type: replicator
+        display: 'Field 2'
 taxonomies: true
 title: Brad

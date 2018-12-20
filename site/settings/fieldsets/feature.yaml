@@ -1,0 +1,19 @@
+sections:
+  main:
+    display: Main
+    fields:
+      icon:
+        container: main
+        folder: icons
+        restrict: true
+        max_files: 1
+        type: assets
+        display: Icon
+      heading:
+        type: text
+        display: Heading
+      text:
+        type: textarea
+        display: Text
+taxonomies: true
+title: Feature

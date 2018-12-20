@@ -1,0 +1,66 @@
+sections:
+  main:
+    display: Main
+    fields:
+      replicator:
+        type: replicator
+        display: Content
+        sets:
+          slider:
+            display: Slider
+            fields:
+              slider:
+                fieldset: slider
+                type: partial
+                display: Slider
+          quote:
+            display: Quote
+            fields:
+              quote:
+                fieldset: quote
+                type: partial
+                display: Quote
+          text:
+            display: Text
+            fields:
+              text:
+                fieldset: paragraph
+                type: partial
+                display: Text
+          image:
+            display: Image
+            fields:
+              image:
+                fieldset: image
+                type: partial
+                display: Image
+          gallery:
+            display: Gallery
+            fields:
+              gallery:
+                fieldset: gallery
+                type: partial
+                display: Gallery
+          features:
+            display: Features
+            fields:
+              features:
+                fieldset: features_list
+                type: partial
+                display: Features
+          call_to_action:
+            display: 'Call to action'
+            fields:
+              call_to_action_block:
+                fieldset: call_to_action_block
+                type: partial
+                display: 'Call to action block'
+          subscribe:
+            display: Subscribe
+            fields:
+              subscribe:
+                fieldset: subscribe
+                type: partial
+                display: Subscribe
+taxonomies: true
+title: Collection

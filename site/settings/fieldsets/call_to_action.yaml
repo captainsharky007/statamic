@@ -1,0 +1,35 @@
+sections:
+  main:
+    display: Main
+    fields:
+      fields:
+        sets:
+          button:
+            display: Button
+            fields:
+              button:
+                fieldset: button
+                type: partial
+                display: button
+          text:
+            display: Text
+            fields:
+              text:
+                fieldset: paragraph
+                type: partial
+                display: Text
+          form:
+            display: Form
+            fields:
+              form:
+                fieldset: form
+                type: partial
+                display: Form
+        type: replicator
+        display: Fields
+      background_color:
+        fieldset: colors
+        type: partial
+        display: 'Background color'
+taxonomies: true
+title: 'Call to action creator'

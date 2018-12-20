@@ -1,0 +1,11 @@
+title: Subscribe
+fields:
+  email:
+    display: Email
+    validate: 'email | required'
+columns:
+  - email
+metrics:
+  -
+    type: total
+    label: Total

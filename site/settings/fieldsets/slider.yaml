@@ -1,0 +1,32 @@
+sections:
+  main:
+    display: Main
+    fields:
+      slider:
+        sets:
+          slide:
+            display: Slide
+            fields:
+              image:
+                container: main
+                folder: /
+                restrict: false
+                max_files: 1
+                type: assets
+                display: Image
+              title:
+                type: text
+                display: Title
+              description:
+                type: textarea
+                display: Description
+        type: replicator
+        display: Slides
+      slider_id:
+        type: text
+        display: 'Slider ID'
+      autoplay_after_load:
+        type: toggle
+        display: Autoplay
+taxonomies: true
+title: Slider

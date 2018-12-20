@@ -1,0 +1,27 @@
+sections:
+  main:
+    display: Main
+    fields:
+      button_icon:
+        container: main
+        folder: icons
+        restrict: false
+        max_files: 1
+        type: assets
+        width: 33
+        display: 'Button icon'
+      button_text:
+        type: text
+        width: 33
+        display: 'Button text'
+      button_click:
+        type: text
+        width: 33
+        display: 'Button click'
+      button_color:
+        fieldset: colors
+        type: partial
+        width: 33
+        display: 'Button color'
+taxonomies: true
+title: Button

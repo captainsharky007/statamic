@@ -1,0 +1,12 @@
+sections:
+  main:
+    display: Main
+    fields:
+      quote_text:
+        type: textarea
+        display: 'Quote text'
+      author:
+        type: text
+        display: Author
+taxonomies: true
+title: Quote

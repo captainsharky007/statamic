@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="56px" viewBox="0 0 62 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/large/music</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="New" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="True-Fi-Landing-with-Icons" transform="translate(-1027.000000, -2055.000000)" stroke="#FC7801" stroke-width="2">
+            <g id="icon/large/music" transform="translate(1026.000000, 2051.000000)">
+                <path d="M58,59 L6,59 C3.791,59 2,57.209 2,55 L2,5 L24,5 L30,13 L62,13 L62,55 C62,57.209 60.209,59 58,59 Z" id="Shape" stroke-linecap="square"></path>
+                <path d="M26,28 L26,46" id="Shape"></path>
+                <path d="M44,28 L44,42" id="Shape"></path>
+                <rect id="Rectangle-path" stroke-linecap="square" x="26" y="22" width="18" height="6"></rect>
+                <circle id="Oval" stroke-linecap="square" cx="22" cy="46" r="4"></circle>
+                <circle id="Oval" stroke-linecap="square" cx="40" cy="42" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

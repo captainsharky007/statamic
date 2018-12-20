@@ -1,0 +1,11 @@
+<div class="container my-5">
+  {{ gallery }}
+  {{ if index % images_in_row == 1 || index == 1 }}
+  <div class="row" style="margin-bottom:2rem;">{{ /if }}
+    <div class="col" style="flex-grow:0; flex-basis:calc(100% / {{ images_in_row }})">
+      <img src="{{ value }}" width="100%" border="0" alt="">
+    </div>
+    {{ if index % images_in_row == 0  }}
+  </div> {{ /if }}
+  {{ /gallery }}
+</div>

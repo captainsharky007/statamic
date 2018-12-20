@@ -1,0 +1,9 @@
+sections:
+  main:
+    display: Main
+    fields:
+      form:
+        type: form
+        display: Form
+taxonomies: true
+title: Form

@@ -1,0 +1,17 @@
+links:
+  -
+    type: column
+    heading: Product
+    links:
+      -
+        type: button
+        button_text: 'Online demo'
+      -
+        type: button
+        button_text: Rewies
+      -
+        type: button
+        button_text: 'Supported Headphones'
+fieldset: footer
+title: Footer
+id: 7db5f51b-2f71-4c30-85b4-af8c6436d8c6

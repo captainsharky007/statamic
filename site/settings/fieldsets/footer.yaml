@@ -1,0 +1,27 @@
+sections:
+  main:
+    display: Main
+    fields:
+      links:
+        type: replicator
+        display: Links
+        sets:
+          column:
+            display: Column
+            fields:
+              heading:
+                type: text
+                display: Heading
+              links:
+                sets:
+                  button:
+                    display: Button
+                    fields:
+                      button:
+                        fieldset: button
+                        type: partial
+                        display: Button
+                type: replicator
+                display: Links
+taxonomies: true
+title: Footer

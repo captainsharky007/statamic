@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html> 
+<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -10,20 +10,21 @@
 </head>
 
 <body class="section-{{ segment_1 or "home" }}">
-
-    {{ partial:nav }}
-
+    {{ partial:nav/nav_1 elementId="nav_1" }}
     {{ template_content }}
 
-    <footer class="page">
+    {{ partial:call_to_action/centred block="fc6b6e99-8ca0-4b63-b418-be68603803e4" }}
+
+    <footer class="container">
+      <hr>
         <p class="copyright">&copy; {{ now format="Y" }} {{ author_name }}</p>
         <p class="tribute">Built with Statamic</p>
     </footer>
 
-    <script src="//code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="{{ theme:js }}"></script>
-
+  {{ partial:utils/snackbar }}
 </body>
 </html>

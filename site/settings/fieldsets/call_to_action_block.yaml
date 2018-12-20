@@ -1,0 +1,12 @@
+sections:
+  main:
+    display: Main
+    fields:
+      block:
+        max_items: '1'
+        collection:
+          - call-to-action
+        type: collection
+        display: Block
+taxonomies: true
+title: 'Call to action block'

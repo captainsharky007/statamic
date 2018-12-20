@@ -1,0 +1,35 @@
+sections:
+  main:
+    display: Main
+    fields:
+      text:
+        buttons:
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - unorderedlist
+          - orderedlist
+          - removeformat
+          - quote
+          - superscript
+          - subscript
+          - anchor
+        style: sans
+        spellcheck: true
+        allow_source: true
+        allow_internal_links: true
+        link_noopener: false
+        link_noreferrer: false
+        target_blank: false
+        semantic_elements: false
+        restrict_assets: false
+        type: bard
+        display: Text
+taxonomies: true
+title: Text

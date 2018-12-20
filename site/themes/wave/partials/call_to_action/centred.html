@@ -1,0 +1,23 @@
+{{ get_content:block }}
+<div class="container-fluid bg-{{ background_color }} text-{{ color }} my-5 text-center py-5">
+  <div class="container">
+
+    {{ fields }}
+
+      {{ if type=="text" }}
+         {{ text }}
+      {{ /if }}
+
+      {{ if type=="form"}}
+        {{ partial:forms/form }}
+      {{/if}}
+
+      {{ if type=="button" }}
+        {{ partial:buttons/buttons }}
+      {{ /if }}
+
+    {{ /fields }}
+
+  </div>
+</div>
+{{/get_content:block}}
