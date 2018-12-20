@@ -1,5 +1,5 @@
 <template>
-    <div class="relative">
+<div class="relativess">
         <div class="bard-toolbar bard-toolbar-setting" v-el:buttons>
 
             <button

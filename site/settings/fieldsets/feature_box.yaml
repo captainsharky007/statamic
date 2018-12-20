@@ -1,0 +1,20 @@
+sections:
+  main:
+    display: Main
+    fields:
+      options:
+        option_tta:
+          -
+            type: tta
+            text: Left
+            value: left
+            image: /new/assets/icons/arrow-orange.svg
+          -
+            type: tta
+            text: Right
+            value: right
+            image: /new/assets/icons/sonar.svg
+        type: bacon
+        display: Options
+taxonomies: true
+title: 'Feature box'

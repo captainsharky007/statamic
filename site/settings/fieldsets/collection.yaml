@@ -62,5 +62,11 @@ sections:
                 fieldset: subscribe
                 type: partial
                 display: Subscribe
+          bacon:
+            display: Bacon
+            fields:
+              bacon:
+                type: bacon
+                display: Bacon
 taxonomies: true
 title: Collection

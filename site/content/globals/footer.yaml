@@ -1,4 +1,4 @@
-links:
+box:
   -
     type: column
     heading: Product
@@ -8,10 +8,32 @@ links:
         button_text: 'Online demo'
       -
         type: button
-        button_text: Rewies
+        button_text: Reviews
       -
         type: button
         button_text: 'Supported Headphones'
+  -
+    type: column
+    heading: Support
+    links:
+      -
+        type: button
+        button_text: Downloads
+      -
+        type: button
+        button_text: 'Offline activation'
+      -
+        type: button
+        button_text: Tutorials
+      -
+        type: button
+        button_text: 'Support center'
+      -
+        type: button
+        button_text: Upgrade
+copyright: '© Sonarworks. All rights reserved.'
+color: white
+background_color: dark
 fieldset: footer
 title: Footer
-id: 7db5f51b-2f71-4c30-85b4-af8c6436d8c6
+id: cf1774ed-912f-4942-9dea-d02fab70ee69

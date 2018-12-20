@@ -1,0 +1,10 @@
+fieldtype_fields:
+  replicator:
+    fieldset: bacon
+    type: partial
+  # text:
+  #   type: textarea
+  # options:
+  #   type: text
+  # inline:
+  #   type: toggle

@@ -7,19 +7,10 @@ sections:
           slide:
             display: Slide
             fields:
-              image:
-                container: main
-                folder: /
-                restrict: false
-                max_files: 1
-                type: assets
-                display: Image
-              title:
-                type: text
-                display: Title
-              description:
-                type: textarea
-                display: Description
+              slide:
+                fieldset: slide
+                type: partial
+                display: Slide
         type: replicator
         display: Slides
       slider_id:

@@ -2,9 +2,9 @@ sections:
   main:
     display: Main
     fields:
-      links:
+      box:
         type: replicator
-        display: Links
+        display: Content
         sets:
           column:
             display: Column
@@ -23,5 +23,12 @@ sections:
                         display: Button
                 type: replicator
                 display: Links
+      copyright:
+        type: text
+        display: Copyright
+      colors:
+        fieldset: colors
+        type: partial
+        display: Colors
 taxonomies: true
 title: Footer

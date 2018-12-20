@@ -1,0 +1,26 @@
+sections:
+  main:
+    display: Main
+    fields:
+      option_tta:
+        sets:
+          tta:
+            display: TTA
+            fields:
+              text:
+                type: text
+                display: Text
+              value:
+                type: text
+                display: Value
+              image:
+                container: main
+                folder: /
+                restrict: false
+                max_files: 1
+                type: assets
+                display: Image
+        type: replicator
+        display: 'Option TTA'
+taxonomies: true
+title: TTA

@@ -71,6 +71,9 @@ replicator:
   -
     type: call_to_action
     block: fc6b6e99-8ca0-4b63-b418-be68603803e4
+  -
+    type: bacon
+    bacon: dadsas
 title: 'About us'
 template: new
 fieldset: collection

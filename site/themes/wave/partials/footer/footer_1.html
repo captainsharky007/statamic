@@ -1,0 +1,29 @@
+<!-- {{ partial:call_to_action/centred block="fc6b6e99-8ca0-4b63-b418-be68603803e4" }} -->
+{{ footer }}
+{{ if box }}
+<footer class="text-{{color}} bg-{{background_color}}">
+  <div class="container">
+    <div class="row py-5">
+      {{ box }}
+      <div class="col">
+        {{ if type=="column"}}
+        <h4>{{ heading }}</h4>
+        <ul>
+          {{ links }}
+          <li>{{ button_text }}</li>
+          {{ /links }}
+        </ul>
+        {{ /if}}
+      </div>
+      {{ /box }}
+    </div>
+    <div class="row pb-4">
+      <div class="col">
+        <hr class="border-secondary">
+        {{ copyright }}
+      </div>
+    </div>
+  </div>
+</footer>
+{{/if}}
+{{ /footer}}
