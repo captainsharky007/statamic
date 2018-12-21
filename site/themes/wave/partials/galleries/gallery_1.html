@@ -1,4 +1,4 @@
-<div class="container my-5">
+<div class="container my-5 gallery">
   {{ gallery }}
   {{ if index % images_in_row == 1 || index == 1 }}
   <div class="row" style="margin-bottom:2rem;">{{ /if }}
@@ -8,4 +8,5 @@
     {{ if index % images_in_row == 0  }}
   </div> {{ /if }}
   {{ /gallery }}
+  {{ if gallery | length % images_in_row !== 0  }}</div> {{ /if }}
 </div>

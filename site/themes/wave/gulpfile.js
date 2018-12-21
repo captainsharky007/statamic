@@ -2,6 +2,7 @@ var elixir = require('laravel-elixir');
 var theme = 'wave';
 elixir.config.assetsPath = './';
 elixir.config.publicPath = './';
+process.env.DISABLE_NOTIFIER = true;
 
 /*
  |--------------------------------------------------------------------------
@@ -15,20 +16,14 @@ elixir.config.publicPath = './';
  */
 
 elixir(function(mix) {
-    mix	
+    mix
 		.sass(theme + '.scss', 'css/' + theme + '.css')
-    	.browserSync({ 
-    		proxy: "sw.com", 
+    	.browserSync({
+    		proxy: "localhost/new",
     		files: [
                 '**/*.html',
                 'css/*.css',
                 'js/*.js'
-            ] 
+            ]
         });
 });
-
-
-
-
-
-

@@ -7,6 +7,6 @@ fields:
     form:
       - subscribe
 color: white
-background_color: dark
+background_color: primary
 title: Subscribe
 id: 6466c1be-3352-42f5-9099-aaf4d40e0f6c

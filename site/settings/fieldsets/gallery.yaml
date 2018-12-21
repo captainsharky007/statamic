@@ -15,3 +15,4 @@ sections:
         display: 'Images in row'
 taxonomies: true
 title: Gallery
+hide: true

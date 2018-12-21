@@ -7,10 +7,10 @@
       {{ box }}
       <div class="col">
         {{ if type=="column"}}
-        <h4>{{ heading }}</h4>
-        <ul>
+        <span class="text-white-50 mb-16 d-block">{{ heading }}</span>
+        <ul class="list-unstyled">
           {{ links }}
-          <li>{{ button_text }}</li>
+          <li class="mb-2">{{ button_text }}</li>
           {{ /links }}
         </ul>
         {{ /if}}
@@ -18,9 +18,9 @@
       {{ /box }}
     </div>
     <div class="row pb-4">
-      <div class="col">
+      <div class="col text-white-50">
         <hr class="border-secondary">
-        {{ copyright }}
+        <small>{{ copyright }}</small>
       </div>
     </div>
   </div>

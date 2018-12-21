@@ -8,5 +8,8 @@ sections:
       author:
         type: text
         display: Author
+      position:
+        type: text
+        display: Position
 taxonomies: true
 title: Quote

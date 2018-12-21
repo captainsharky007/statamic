@@ -1,3 +1,4 @@
+template: new
 replicator:
   -
     type: text
@@ -71,10 +72,6 @@ replicator:
   -
     type: call_to_action
     block: fc6b6e99-8ca0-4b63-b418-be68603803e4
-  -
-    type: bacon
-    bacon: dadsas
 title: 'About us'
-template: new
 fieldset: collection
 id: fc6bbd5c-8411-4371-86ef-24dbacf93457

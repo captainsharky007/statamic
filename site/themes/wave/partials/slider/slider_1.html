@@ -9,8 +9,8 @@
     <div class="carousel-inner" style="height:500px;">
       {{ slider }}
       <div class="carousel-item {{ if index == 1 }}active {{ /if }}" style="background:url('{{image}}') no-repeat; background-size:cover; height:100%; width:100%; background-position: {{ asset:image}} {{ focus_css }} {{ /asset:image }};">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>{{ title }} </h5>
+        <div class="carousel-caption d-none d-md-block text-shadow">
+          <h4 class="text-white">{{ title }}</h4>
           <p>{{ description }}</p>
         </div>
       </div>

@@ -31,6 +31,16 @@ box:
       -
         type: button
         button_text: Upgrade
+  -
+    type: column
+    heading: Blog
+    links:
+      -
+        type: button
+        button_text: Gear
+      -
+        type: button
+        button_text: 'dasd as'
 copyright: '© Sonarworks. All rights reserved.'
 color: white
 background_color: dark

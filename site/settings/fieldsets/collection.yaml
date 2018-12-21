@@ -2,6 +2,9 @@ sections:
   main:
     display: Main
     fields:
+      template:
+        type: template
+        display: Template
       replicator:
         type: replicator
         display: Content
@@ -55,18 +58,5 @@ sections:
                 fieldset: call_to_action_block
                 type: partial
                 display: 'Call to action block'
-          subscribe:
-            display: Subscribe
-            fields:
-              subscribe:
-                fieldset: subscribe
-                type: partial
-                display: Subscribe
-          bacon:
-            display: Bacon
-            fields:
-              bacon:
-                type: bacon
-                display: Bacon
 taxonomies: true
 title: Collection
