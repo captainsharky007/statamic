@@ -1,0 +1,13 @@
+sections:
+  main:
+    display: Main
+    fields:
+      collection:
+        max_items: 1
+        type: collections
+        display: Collection
+      items_on_page:
+        type: text
+        display: 'Items on page'
+taxonomies: true
+title: Collect

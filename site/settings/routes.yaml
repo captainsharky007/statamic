@@ -1,0 +1,9 @@
+collections:
+  blog:
+    en: '/blog/{slug}'
+    lv: '/lv/blog/{slug}'
+  events:
+    en: '/events/{slug}'
+    lv: '/lv/events/{slug}'
+taxonomies: {  }
+routes: {  }

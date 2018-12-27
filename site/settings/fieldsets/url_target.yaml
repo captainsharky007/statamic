@@ -1,0 +1,28 @@
+sections:
+  main:
+    display: Main
+    fields:
+      links:
+        type: section
+        instructions: 'You should set only one link type.'
+        display: Links
+      target_collection:
+        max_items: '1'
+        collection:
+          - blog
+        mode: panes
+        type: collection
+        width: 50
+        display: 'Link to collection'
+      target_page:
+        max_items: 1
+        mode: panes
+        type: pages
+        width: 50
+        display: 'Link to page'
+      target_custom:
+        type: text
+        display: 'Custom url'
+taxonomies: true
+hide: true
+title: 'Url target'

@@ -5,6 +5,11 @@ sections:
       template:
         type: template
         display: Template
+        width: 50
+      dont_show_on_main_menu:
+        type: toggle
+        width: 50
+        display: 'Don''t show on main nav'
       replicator:
         type: replicator
         display: Content
@@ -58,5 +63,12 @@ sections:
                 fieldset: call_to_action_block
                 type: partial
                 display: 'Call to action block'
+          collect:
+            display: Collect
+            fields:
+              collect:
+                fieldset: collect
+                type: partial
+                display: Collect
 taxonomies: true
 title: Collection

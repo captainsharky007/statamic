@@ -10,7 +10,15 @@
         <span class="text-white-50 mb-16 d-block">{{ heading }}</span>
         <ul class="list-unstyled">
           {{ links }}
-          <li class="mb-2">{{ button_text }}</li>
+          <li class="mb-2">
+            {{ if button_constructor  }}
+            <a class="{{ button_constructor }}{{ if type=="text_color" }}text-{{ color }}{{/if}} {{ if type=="background_color" }}bg-{{ color }}{{/if}}{{ /button_constructor }}"{{ button_constructor }}{{ if type=="url_target" }} href="{{ target_collection | url }}" {{/if}}{{ /button_constructor }}>
+              {{ button_constructor }}
+              {{ if type=="button_text" }}{{ button_text }}{{/if }}
+              {{ if type=="icon" }}<img src="{{ icon | url }}" width="24">{{/if }}
+              {{ /button_constructor }}</a>
+            {{ /if }}
+          </li>
           {{ /links }}
         </ul>
         {{ /if}}

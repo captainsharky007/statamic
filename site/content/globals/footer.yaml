@@ -5,42 +5,22 @@ box:
     links:
       -
         type: button
-        button_text: 'Online demo'
-      -
-        type: button
-        button_text: Reviews
-      -
-        type: button
-        button_text: 'Supported Headphones'
-  -
-    type: column
-    heading: Support
-    links:
-      -
-        type: button
-        button_text: Downloads
-      -
-        type: button
-        button_text: 'Offline activation'
-      -
-        type: button
-        button_text: Tutorials
-      -
-        type: button
-        button_text: 'Support center'
-      -
-        type: button
-        button_text: Upgrade
-  -
-    type: column
-    heading: Blog
-    links:
-      -
-        type: button
-        button_text: Gear
-      -
-        type: button
-        button_text: 'dasd as'
+        button_constructor:
+          -
+            type: button_text
+            button_text: 'Demo page'
+          -
+            type: icon
+            icon: /new/assets/icons/arrow.svg
+          -
+            type: url_target
+            target_collection: db920e22-5627-434f-8292-ff498be84668
+          -
+            type: text_color
+            color: default
+          -
+            type: background_color
+            color: default
 copyright: '© Sonarworks. All rights reserved.'
 color: white
 background_color: dark

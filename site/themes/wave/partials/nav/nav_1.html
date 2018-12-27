@@ -11,7 +11,7 @@
           </button>
           <div class="collapse navbar-collapse" id="{{ elementId }}">
             <ul class="navbar-nav ml-auto mr-4">
-              {{ nav from="/" include_home="true" scope="tag" }}
+              {{ nav from="/" dont_show_on_main_menu:isnt="true" include_home="true" scope="tag" }}
               <li class="nav-item {{ if children }} dropdown {{ /if}} {{ if is_current or is_parent }}active{{ /if }}" href="#">
                 <a class="nav-link{{ if children }} dropdown-toggle {{ /if }}" {{ if children }} id="navbarDropdown_{{ elementId }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" {{ /if }} href="{{ url }}">{{ tag:nav_title or title }}
                   <span class="sr-only">(current)</span></a>

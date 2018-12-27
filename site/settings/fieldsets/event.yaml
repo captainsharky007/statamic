@@ -1,0 +1,31 @@
+sections:
+  main:
+    display: Main
+    fields:
+      event_name:
+        type: text
+        display: 'Event name'
+      event_description:
+        type: textarea
+        display: 'Event description'
+      event_date:
+        allow_blank: false
+        allow_time: true
+        require_time: false
+        earliest_date: 'January 1, 1900'
+        type: date
+        width: 50
+        display: 'Event date'
+      event_location:
+        type: text
+        width: 50
+        display: 'Event location'
+      hide_book_meeting_with_us:
+        type: toggle
+        display: 'Hide ''Book meeting with us'''
+      collection:
+        fieldset: collection
+        type: partial
+        display: Collection
+taxonomies: true
+title: Event

@@ -4,6 +4,7 @@ sections:
     fields:
       color:
         options:
+          default: Default
           primary: Primary
           secondary: Secondary
           dark: Dark
@@ -16,19 +17,6 @@ sections:
         type: select
         display: 'Text color'
         width: 50
-      background_color:
-        options:
-          primary: Primary
-          secondary: Secondary
-          dark: Dark
-          light: Light
-          white: White
-          danger: Danger
-          success: Success
-          warning: Warning
-          info: Info
-        type: select
-        display: 'Background color'
-        width: 50
+        default: Default
 taxonomies: true
 title: Colors

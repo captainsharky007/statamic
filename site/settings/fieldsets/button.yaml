@@ -2,26 +2,43 @@ sections:
   main:
     display: Main
     fields:
-      button_icon:
-        container: main
-        folder: icons
-        restrict: false
-        max_files: 1
-        type: assets
-        width: 33
-        display: 'Button icon'
-      button_text:
-        type: text
-        width: 33
-        display: 'Button text'
-      button_click:
-        type: text
-        width: 33
-        display: 'Button click'
-      button_color:
-        fieldset: colors
-        type: partial
-        width: 33
-        display: 'Button color'
+      button_constructor:
+        sets:
+          button_text:
+            display: 'Button text'
+            fields:
+              button_text:
+                type: text
+                display: button_text
+          url_target:
+            display: Url/Link
+            fields:
+              field_1:
+                fieldset: url_target
+                type: partial
+                display: 'Field 1'
+          text_color:
+            display: 'Text color'
+            fields:
+              text_color:
+                fieldset: colors
+                type: partial
+                display: 'Text color'
+          background_color:
+            display: 'Button Background color'
+            fields:
+              background_color:
+                fieldset: colors
+                type: partial
+                display: 'Background color'
+          icon:
+            display: Icon
+            fields:
+              icon:
+                fieldset: icon
+                type: partial
+                display: Icon
+        type: replicator
+        display: 'Button constructor'
 taxonomies: true
 title: Button
