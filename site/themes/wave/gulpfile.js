@@ -19,7 +19,8 @@ elixir(function(mix) {
     mix
 		.sass(theme + '.scss', 'css/' + theme + '.css')
     	.browserSync({
-    		proxy: "localhost/new",
+        proxy: "sonarworks.test/new",
+    		//proxy: "localhost/new",
     		files: [
                 '**/*.html',
                 'css/*.css',

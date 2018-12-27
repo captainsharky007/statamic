@@ -1,0 +1,9 @@
+sections:
+  main:
+    display: Main
+    fields:
+      field_1:
+        type: bacon
+        display: 'Field 1'
+taxonomies: true
+title: test
