@@ -6,4 +6,6 @@ collections:
     en: '/events/{slug}'
     lv: '/lv/events/{slug}'
 taxonomies: {  }
-routes: {  }
+routes:
+  /test: AddonNameController@index
+

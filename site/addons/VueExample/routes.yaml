@@ -1,0 +1,4 @@
+routes:
+    /:
+      as: addons.vue-example
+      uses: index
