@@ -1,0 +1,28 @@
+sections:
+  main:
+    display: Main
+    fields:
+      template:
+        type: template
+        width: 50
+        display: Template
+      dont_show_on_main_menu:
+        type: toggle
+        width: 50
+        display: 'Don''t show on main navigation'
+      components:
+        fieldset: components
+        type: partial
+        localizable: true
+        display: Components
+  meta:
+    display: Meta
+    fields:
+      slug:
+        display: Slug
+        type: text
+      test:
+        type: textarea
+        display: test
+taxonomies: true
+title: 'Default page'

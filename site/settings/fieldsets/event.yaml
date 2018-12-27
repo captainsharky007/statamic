@@ -23,9 +23,9 @@ sections:
       hide_book_meeting_with_us:
         type: toggle
         display: 'Hide ''Book meeting with us'''
-      collection:
-        fieldset: collection
+      components:
+        fieldset: collection_list
         type: partial
-        display: Collection
+        display: Components
 taxonomies: true
 title: Event

@@ -1,8 +1,9 @@
 template: new
-replicator:
+dont_show_on_main_menu: false
+components:
   -
     type: text
-    text: '<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget pretium augue, a sagittis risus. Phasellus turpis quam, porttitor non pulvinar vitae, fermentum eget tortor.&nbsp;</h3><p>Duis nec mi non odio aliquet convallis. Ut at elit eget tortor rhoncus maximus in quis erat. Maecenas et gravida enim. Donec vel tincidunt diam. Vestibulum sed faucibus lacus, sed sagittis urna. Quisque massa neque, consequat vel euismod in, interdum nec odio. In vitae lobortis mauris. Sed ac velit pretium mauris facilisis pretium. Sed at malesuada sapien. Phasellus tincidunt ex non ante pellentesque, in varius diam dignissim. Vestibulum vel libero sit amet sem euismod egestas sit amet id ligula. Cras euismod quis nisl nec bibendum.&nbsp;&nbsp;</p><p>Sed ac velit pretium mauris facilisis pretium. Sed at malesuada sapien. Phasellus tincidunt ex non ante pellentesque, in varius diam dignissim. Vestibulum vel libero sit amet sem euismod egestas sit amet id ligula. Cras euismod quis nisl nec bibendum.</p><h4>Nunc bibendum vehicula enim nec consectetur.</h4><p>&nbsp;Nam finibus tempor tristique. Cras nibh dolor, pellentesque vel cursus malesuada, aliquam at velit. Nulla eget tincidunt felis. Praesent vel risus in nibh ultrices tempor nec sit amet mauris. Fusce egestas dignissim efficitur. Phasellus nec molestie lectus. Nulla in est a mi eleifend rutrum rhoncus nec neque. Nunc quis molestie tortor, at lobortis ligula. Nullam in lorem eu mi convallis fermentum. Donec nec pulvinar velit, in facilisis libero. Vivamus sed dui in elit viverra lobortis at sit amet ipsum. Nam a lectus mattis, maximus quam at, venenatis sapien.&nbsp;&nbsp;<br></p>'
+    text: '<h3>English</h3><p>Duis nec mi non odio aliquet convallis. Ut at elit eget tortor rhoncus maximus in quis erat. Maecenas et gravida enim. Donec vel tincidunt diam. Vestibulum sed faucibus lacus, sed sagittis urna. Quisque massa neque, consequat vel euismod in, interdum nec odio. In vitae lobortis mauris. Sed ac velit pretium mauris facilisis pretium. Sed at malesuada sapien. Phasellus tincidunt ex non ante pellentesque, in varius diam dignissim. Vestibulum vel libero sit amet sem euismod egestas sit amet id ligula. Cras euismod quis nisl nec bibendum.&nbsp;&nbsp;</p><p>Sed ac velit pretium mauris facilisis pretium. Sed at malesuada sapien. Phasellus tincidunt ex non ante pellentesque, in varius diam dignissim. Vestibulum vel libero sit amet sem euismod egestas sit amet id ligula. Cras euismod quis nisl nec bibendum.</p><h4>Nunc bibendum vehicula enim nec consectetur.</h4><p>&nbsp;Nam finibus tempor tristique. Cras nibh dolor, pellentesque vel cursus malesuada, aliquam at velit. Nulla eget tincidunt felis. Praesent vel risus in nibh ultrices tempor nec sit amet mauris. Fusce egestas dignissim efficitur. Phasellus nec molestie lectus. Nulla in est a mi eleifend rutrum rhoncus nec neque. Nunc quis molestie tortor, at lobortis ligula. Nullam in lorem eu mi convallis fermentum. Donec nec pulvinar velit, in facilisis libero. Vivamus sed dui in elit viverra lobortis at sit amet ipsum. Nam a lectus mattis, maximus quam at, venenatis sapien.&nbsp;&nbsp;<br></p>'
   -
     type: slider
     slider:
@@ -73,5 +74,5 @@ replicator:
     type: call_to_action
     block: fc6b6e99-8ca0-4b63-b418-be68603803e4
 title: 'About us'
-fieldset: collection
+fieldset: default_page
 id: fc6bbd5c-8411-4371-86ef-24dbacf93457

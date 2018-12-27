@@ -4,7 +4,7 @@ event_date: '2018-12-31'
 event_location: 'Las Vegas'
 hide_book_meeting_with_us: false
 dont_show_on_main_menu: false
-replicator:
+components:
   -
     type: image
     image: /new/assets/ishan-seefromthesky-403804-unsplash.jpg

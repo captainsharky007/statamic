@@ -9,5 +9,12 @@ sections:
       items_on_page:
         type: text
         display: 'Items on page'
+      template:
+        max_items: 1
+        taxonomy: list-templates
+        mode: tags
+        type: taxonomy
+        display: Template
 taxonomies: true
-title: Collect
+title: 'Collection list'
+hide: true

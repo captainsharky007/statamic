@@ -2,17 +2,9 @@ sections:
   main:
     display: Main
     fields:
-      template:
-        type: template
-        display: Template
-        width: 50
-      dont_show_on_main_menu:
-        type: toggle
-        width: 50
-        display: 'Don''t show on main nav'
-      replicator:
+      components:
         type: replicator
-        display: Content
+        display: Components
         sets:
           slider:
             display: Slider
@@ -63,12 +55,13 @@ sections:
                 fieldset: call_to_action_block
                 type: partial
                 display: 'Call to action block'
-          collect:
-            display: Collect
+          collection_list:
+            display: 'Collection list'
             fields:
-              collect:
-                fieldset: collect
+              collection_list:
+                fieldset: collection_list
                 type: partial
-                display: Collect
+                display: 'Collection list'
+        localizable: true
 taxonomies: true
-title: Collection
+title: Components

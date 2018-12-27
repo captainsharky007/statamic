@@ -1,0 +1,54 @@
+sections:
+  main:
+    display: Main
+    fields:
+      requested_by:
+        type: text
+        width: 50
+        display: 'Requested by'
+        validate: required
+      place_in_head_tag:
+        type: toggle
+        width: 50
+        display: 'Place in head tag'
+      description:
+        type: textarea
+        display: Description
+      code:
+        type: textarea
+        display: Code
+  meta:
+    display: Meta
+    fields:
+      slug:
+        display: Slug
+        type: text
+        width: 50
+      author:
+        max_items: 1
+        label: '{{ first_name }} {{ last_name }}'
+        mode: tags
+        type: users
+        display: Author
+        default: current
+        width: 50
+        validate: required
+      date:
+        display: 'Date updated'
+        type: date
+        allow_blank: false
+        allow_time: true
+        require_time: true
+        earliest_date: 'January 1, 2018'
+        width: 50
+      date_added:
+        allow_blank: false
+        allow_time: false
+        require_time: false
+        earliest_date: 'January 1, 1900'
+        type: date
+        width: 50
+        display: 'Date added'
+taxonomies: true
+hide: true
+title: Javascripts

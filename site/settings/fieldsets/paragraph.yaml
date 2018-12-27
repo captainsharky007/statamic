@@ -31,5 +31,7 @@ sections:
         restrict_assets: false
         type: bard
         display: Text
+        localizable: true
 taxonomies: true
 title: Text
+hide: true

@@ -11,7 +11,8 @@
             <h3 class="text-dark">{{ title }}</h3>
             <span>{{ event_date }} | {{ event_location }}</span>
             <p>{{ event_description }}</p>
-            <button type="button" name="button" class="btn btn-secondary">Book meeting with us</button>
+            <a class="btn btn-secondary" href="{{ id | url }}">Read more</a>
+            <a class="btn btn-link">Book meeting with us</a>
           </div>
         </div>
       </div>
