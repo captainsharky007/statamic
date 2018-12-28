@@ -1,0 +1,15 @@
+sections:
+  main:
+    display: Main
+    fields:
+      template:
+        max_items: 1
+        options:
+          event_entry: 'Event entry / Default'
+          event_entries/event_entry_xmas: 'Event entry / Xmas'
+        create: true
+        type: suggest
+        display: Template
+taxonomies: true
+title: 'Template list'
+hide: true

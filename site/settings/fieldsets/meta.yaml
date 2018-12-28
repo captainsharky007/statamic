@@ -1,0 +1,14 @@
+sections:
+  main:
+    display: Main
+    fields:
+      slug:
+        display: Slug
+        type: text
+      template_list:
+        fieldset: template
+        type: partial
+        display: Template
+taxonomies: true
+title: Meta
+hide: true

@@ -2,9 +2,6 @@ sections:
   main:
     display: Main
     fields:
-      event_name:
-        type: text
-        display: 'Event name'
       event_description:
         type: textarea
         display: 'Event description'
@@ -24,8 +21,15 @@ sections:
         type: toggle
         display: 'Hide ''Book meeting with us'''
       components:
-        fieldset: collection_list
+        fieldset: components
         type: partial
         display: Components
+  meta:
+    display: Meta
+    fields:
+      meta:
+        fieldset: meta
+        type: partial
+        display: Meta
 taxonomies: true
-title: Event
+title: 'Event entry'
