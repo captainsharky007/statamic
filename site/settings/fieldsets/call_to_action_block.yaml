@@ -10,3 +10,4 @@ sections:
         display: Block
 taxonomies: true
 title: 'Call to action block'
+hide: true

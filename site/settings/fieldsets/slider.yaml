@@ -21,3 +21,4 @@ sections:
         display: Autoplay
 taxonomies: true
 title: Slider
+hide: true

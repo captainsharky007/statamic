@@ -18,3 +18,4 @@ sections:
         display: Description
 taxonomies: true
 title: Slide
+hide: true

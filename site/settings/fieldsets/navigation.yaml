@@ -42,3 +42,4 @@ sections:
         display: 'Field 3'
 taxonomies: true
 title: Navigation
+hide: true

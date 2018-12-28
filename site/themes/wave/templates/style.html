@@ -1,4 +1,21 @@
-{{ title }}
+<style>
+	.block {
+		margin:96px auto;
+	}
+	.title h2 {
+		color:red !important;
+	}
+
+</style>
+<div class="container my-5">
+	<div class="row  {{ globals:horizontal_padding_class }}">
+		<div class="col">
+			<h1 class="text-dark">{{ title }}</h1>
+		</div>
+	</div>
+</div>
+
+{{ partial:components }}
 
 <div class="border-bottom">
 	<div class="container my-5">
@@ -25,12 +42,12 @@
 <div class="border-bottom">
 	<div class="container my-5">
 		<h2 class="type mb-4">Typography</h2>
-		<h1>h1. heading</h1>
-		<h2>h2. heading</h2>
-		<h3>h3. heading</h3>
-		<h4>h4. heading</h4>
-		<h5>h5. heading</h5>
-		<h6>h6. heading</h6>
+<h1>h1. heading</h1>
+<h2>h2. heading</h2>
+<h3>h3. heading</h3>
+<h4>h4. heading</h4>
+<h5>h5. heading</h5>
+<h6>h6. heading</h6>
 	</div>
 </div>
 

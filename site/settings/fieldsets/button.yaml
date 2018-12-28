@@ -42,3 +42,4 @@ sections:
         display: 'Button constructor'
 taxonomies: true
 title: Button
+hide: true

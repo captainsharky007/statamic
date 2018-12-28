@@ -4,3 +4,4 @@ sections:
     fields: {  }
 taxonomies: true
 title: Subscribe
+hide: true

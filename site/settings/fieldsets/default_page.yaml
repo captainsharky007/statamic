@@ -2,10 +2,11 @@ sections:
   main:
     display: Main
     fields:
-      template:
-        type: template
+      title:
+        display: 'Page title'
+        type: text
         width: 50
-        display: Template
+        localizable: true
       dont_show_on_main_menu:
         type: toggle
         width: 50
@@ -18,11 +19,9 @@ sections:
   meta:
     display: Meta
     fields:
-      slug:
-        display: Slug
-        type: text
-      test:
-        type: textarea
-        display: test
+      meta:
+        fieldset: meta
+        type: partial
+        display: Meta
 taxonomies: true
 title: 'Default page'

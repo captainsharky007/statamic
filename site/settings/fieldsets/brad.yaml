@@ -94,3 +94,4 @@ sections:
         display: 'Field 2'
 taxonomies: true
 title: Brad
+hide: true

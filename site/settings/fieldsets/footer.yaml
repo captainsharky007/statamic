@@ -32,3 +32,4 @@ sections:
         display: Colors
 taxonomies: true
 title: Footer
+hide: true

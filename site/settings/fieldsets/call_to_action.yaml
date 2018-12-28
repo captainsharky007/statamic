@@ -33,3 +33,4 @@ sections:
         display: 'Background color'
 taxonomies: true
 title: 'Call to action creator'
+hide: true

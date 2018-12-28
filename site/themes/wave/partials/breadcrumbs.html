@@ -1,0 +1,17 @@
+<div class="container text block">
+  <div class="row {{ globals:horizontal_padding_class }} title">
+    <div class="col-12 mb-5">
+      <h2>Breadcrumbs</h2>
+    </div>
+    <div class="col">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          {{ nav:breadcrumbs }}
+          <li class="breadcrumb-item {{ if is_current }} active current{{ /if }}" {{ if is_current }} aria-current="page" {{/if}}><a {{ unless is_current }} href="{{ url }}" {{/unless}}>{{ title }}</a>
+          </li>
+          {{ /nav:breadcrumbs }}
+        </ol>
+      </nav>
+    </div>
+  </div>
+</div>

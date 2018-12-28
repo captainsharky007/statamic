@@ -7,9 +7,11 @@ sections:
         options:
           event_entry: 'Event entry / Default'
           event_entries/event_entry_xmas: 'Event entry / Xmas'
+          default: 'Default template'
         create: true
         type: suggest
         display: Template
+        default: default
 taxonomies: true
 title: 'Template list'
 hide: true

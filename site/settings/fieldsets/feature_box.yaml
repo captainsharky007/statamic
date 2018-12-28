@@ -18,3 +18,4 @@ sections:
         display: Options
 taxonomies: true
 title: 'Feature box'
+hide: true

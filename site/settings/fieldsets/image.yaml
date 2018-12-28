@@ -11,3 +11,4 @@ sections:
         display: Image
 taxonomies: true
 title: Image
+hide: true

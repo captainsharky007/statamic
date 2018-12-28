@@ -24,3 +24,4 @@ sections:
         display: 'Option TTA'
 taxonomies: true
 title: TTA
+hide: true

@@ -62,6 +62,18 @@ sections:
                 fieldset: collection_list
                 type: partial
                 display: 'Collection list'
+          partial:
+            display: Partial
+            fields:
+              partial_name:
+                type: text
+                display: 'Partial name'
+                width: 50
+              full_width_container:
+                type: toggle
+                width: 50
+                display: 'Full width container'
         localizable: true
 taxonomies: true
 title: Components
+hide: true

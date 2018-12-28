@@ -7,3 +7,4 @@ sections:
         display: Form
 taxonomies: true
 title: Form
+hide: true

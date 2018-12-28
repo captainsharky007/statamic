@@ -20,3 +20,4 @@ sections:
         default: Default
 taxonomies: true
 title: Colors
+hide: true
