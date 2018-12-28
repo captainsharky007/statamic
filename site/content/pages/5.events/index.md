@@ -6,7 +6,7 @@ components:
     text: '<h4>During the next months, Sonarworks presents its products at the exhibitions listed below. We are looking forward to meet you there.</h4>'
   -
     type: collection_list
-    collection: events
+    collection_list: events
     items_on_page: '5'
 title: Events
 fieldset: default_page

@@ -8,7 +8,7 @@ components:
     image: /new/assets/ishan-seefromthesky-403804-unsplash.jpg
   -
     type: collection_list
-    collection: events
+    collection_list: events
 event_name: 'SHOW MANN 2019'
 dont_show_on_main_menu: false
 title: 'SHOW MANN 2019'

@@ -2,3 +2,4 @@ company_name: 'Wave Inc.'
 fieldset: globals
 title: Globals
 id: 5cd5438a-67bb-4fed-b80d-c0441b01b9a7
+horizontal_padding_class: mx-5 

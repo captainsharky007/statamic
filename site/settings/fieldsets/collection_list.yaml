@@ -2,7 +2,7 @@ sections:
   main:
     display: Main
     fields:
-      collection:
+      collection_list:
         max_items: 1
         type: collections
         display: Collection
