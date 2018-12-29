@@ -1,10 +1,9 @@
-{{ navigation }}
 <header class="navbar-light bg-light">
   <div class="container">
     <div class="row">
       <div class="col">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand mr-5" href="{{ site_url }}"><img src="{{ logo }}" width="100px" alt="{{ globals:company_name }} logo"></a>
+          <a class="navbar-brand mr-5" href="{{ site_url }}"><img src="{{ navigation:logo }}" width="100px" alt="{{ globals:company_name }} logo"></a>
           {{ locales }}<a href="{{ url }}" class="mr-3 {{ if is_current }}text-hide{{ /if }}">{{ locale:name }}</a>{{ /locales }}
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#{{ elementId }}" aria-controls="{{ elementId }}" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,11 +24,10 @@
               </li>
               {{ /nav }}
             </ul>
-            <button class="btn btn-primary my-2 my-sm-0" type="submit">{{ call_to_action }}</button>
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">{{ navigation:call_to_action }}</button>
           </div>
         </nav>
       </div>
     </div>
   </div>
 </header>
-{{ /navigation }}

@@ -67,12 +67,23 @@ sections:
             fields:
               partial_name:
                 type: text
-                display: 'Partial name'
-                width: 50
+                display: 'Partial template name'
+                width: 33
+              partial_tilte:
+                type: text
+                width: 33
+                display: 'Partial tilte'
               full_width_container:
                 type: toggle
-                width: 50
+                width: 33
                 display: 'Full width container'
+          table:
+            display: Table
+            fields:
+              table:
+                fieldset: table
+                type: partial
+                display: Table
         localizable: true
 taxonomies: true
 title: Components

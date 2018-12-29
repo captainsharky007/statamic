@@ -1,0 +1,31 @@
+<table class="table" style="table-layout:fixed;">
+  {{ table }}
+  {{ if first && first_row_is_headers }}
+  <thead>
+    <tr>
+      {{ cells }}
+      <th scope="col" class="border-primary border-top-0 pl-lg-0 text-dark">{{ value }}</th>
+      {{ /cells }}
+    </tr>
+  </thead>
+  <tbody>
+    {{ /if }}
+    {{ if !first && first_row_is_headers || !first_row_is_headers }}
+    {{ if first }}
+  <tbody>
+    {{ /if }}
+    <tr>
+      {{ cells }}
+      {{ if first && first_column_is_titles }}
+      <th scope="row" class="pl-lg-0 text-dark">{{ value }}</th>
+      {{ else }}
+      <td class="pl-lg-0">{{ value }}</td>
+      {{ /if }}
+      {{ /cells }}
+    </tr>
+    {{ if last }}
+  </tbody>
+  {{ /if }}
+  {{ /if }}
+  {{ /table }}
+</table>

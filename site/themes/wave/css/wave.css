@@ -8537,6 +8537,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.bg-none {
+  background-color: transparent;
+}
+
 .btn {
   font-size: 0.9375rem;
   border-radius: 3.1415px;

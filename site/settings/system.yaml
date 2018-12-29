@@ -6,7 +6,7 @@ locales:
   lv:
     full: lv_LV
     name: Latviski
-    url: /new/lv
+    url: /new/lv/
 timezone: UTC
 date_format: 'F jS, Y'
 default_extension: md

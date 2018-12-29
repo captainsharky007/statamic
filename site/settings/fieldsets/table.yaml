@@ -1,0 +1,18 @@
+sections:
+  main:
+    display: Main
+    fields:
+      table:
+        type: table
+        display: Table
+      first_row_is_headers:
+        type: toggle
+        width: 50
+        display: 'First row is headers'
+      first_column_is_titles:
+        type: toggle
+        width: 50
+        display: 'First column is titles'
+taxonomies: true
+title: Table
+hide: true

@@ -1,4 +1,4 @@
-template: default_page
+title: Events
 dont_show_on_main_menu: false
 components:
   -
@@ -8,6 +8,7 @@ components:
     type: collection_list
     collection_list: events
     items_on_page: '5'
-title: Events
+    collection_list_template: collections/events
+template: default_page
 fieldset: default_page
 id: 1ff8ffd5-6b18-41ce-91fa-c73f02deb1e4

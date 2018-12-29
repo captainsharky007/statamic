@@ -9,6 +9,11 @@ sections:
       items_on_page:
         type: text
         display: 'Items on page'
+      collection_list_template:
+        options:
+          collections/events: Events
+        type: select
+        display: 'Collection list template'
 taxonomies: true
 title: 'Collection list'
 hide: true

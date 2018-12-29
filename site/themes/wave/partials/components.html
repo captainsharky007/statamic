@@ -32,16 +32,20 @@
 {{ partial:features/features_1 }}
 {{ /if }}
 
-{{ if type=="call_to_action"}}
+{{ if type=="call_to_action" }}
 {{ partial:call_to_action/centred }}
 {{ /if }}
 
-{{ if type=="collection_list"}}
-{{ partial :src="collection_list"}}
+{{ if type=="collection_list" }}
+{{ partial :src="collection_list_template" }}
 {{ /if }}
 
-{{ if type=="partial"}}
-			{{ partial :src="partial_name"}}
+{{ if type=="partial" }}
+			{{ partial :src="partial_name" }}
+{{ /if }}
+
+{{ if type=="table" }}
+			{{ partial:tables/table_default }}
 {{ /if }}
 
 {{ if type=="subscribe" }}

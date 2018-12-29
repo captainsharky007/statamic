@@ -6,10 +6,8 @@ components:
   -
     type: image
     image: /new/assets/ishan-seefromthesky-403804-unsplash.jpg
-  -
-    type: collection_list
-    collection_list: events
+template: event_entries/event_entry_default
 event_name: 'SHOW MANN 2019'
 dont_show_on_main_menu: false
-title: 'SHOW MANN 2019'
+title: 'SHOW MANN 2019 Exhibition'
 id: f048f0a2-e2ce-4156-94af-82eb380bda25

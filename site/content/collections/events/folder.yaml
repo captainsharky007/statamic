@@ -1,3 +1,3 @@
 title: Events
 fieldset: event_entry
-template: event_entry
+template: event_entries/event_entry_default

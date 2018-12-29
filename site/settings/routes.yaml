@@ -4,8 +4,7 @@ collections:
     lv: '/lv/blog/{slug}'
   events:
     en: '/events/{slug}'
-    lv: '/lv/events/{slug}'
+    lv: '/events/{slug}'
 taxonomies: {  }
 routes:
   /test: AddonNameController@index
-

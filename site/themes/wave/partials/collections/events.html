@@ -1,7 +1,7 @@
 <div class="container my-5">
   <div class="row {{ globals:horizontal_padding_class }}">
     <div class="col">
-      {{ collection :from="collection_list" }}
+      {{ collection from="events" limit="2" url:not="{ url }" }}
       <div class="my-5">
         <div class="row">
           <div class="col-md-auto">
@@ -12,7 +12,9 @@
             <span>{{ event_date }} | {{ event_location }}</span>
             <p>{{ event_description }}</p>
             <a class="btn btn-secondary" href="{{ id | url }}">Read more</a>
-            <a class="btn btn-link">Book meeting with us</a>
+            {{ unless hide_book_meeting_with_us }}
+            <a class="btn btn-link bookmeeting" onClick="bookmeeting()">Book meeting with us</a>
+            {{ /unless }}
           </div>
         </div>
       </div>
@@ -21,3 +23,8 @@
     </div>
   </div>
 </div>
+<script>
+function bookmeeting() {
+  alert('under construction')
+}
+</script>
