@@ -1,5 +1,7 @@
-company_name: Sonarworks
 call_to_action: 'Buy now'
+hide_language_switcher: false
 logo: /new/assets/logo/sonarworks-logo-dark.svg
+message_when_page_is_available_only_in_english: 'Sorry this page is available only in English'
 title: Navigation
 id: 2e5c0e47-17f7-4e63-8603-34e73bffeee2
+fieldset: navigation

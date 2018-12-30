@@ -8587,6 +8587,11 @@ a.text-dark:hover, a.text-dark:focus {
   box-shadow: 0 0 0 0.2rem rgba(70, 114, 213, 0.3) !important;
 }
 
+.form-group.required label:after {
+  content: "*";
+  color: red;
+}
+
 .m-0 {
   margin: 0 !important;
 }

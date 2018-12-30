@@ -1,5 +1,5 @@
-{{ if available_only_english }}
+{{ if available_only_english && locale!=="en" }} 
 <div class="alert alert-warning rounded-0 text-center" role="alert">
-  Sorry this page is available only in english
+{{ navigation:message_when_page_is_available_only_in_english }}
 </div>
 {{ /if }}

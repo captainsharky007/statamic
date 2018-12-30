@@ -5,7 +5,12 @@ sections:
       call_to_action:
         type: text
         localizable: true
-        display: 'Call to action text'
+        width: 50
+        display: 'Text on call to action button'
+      hide_language_switcher:
+        type: toggle
+        width: 50
+        display: 'Hide language switcher'
       logo:
         container: main
         folder: /
@@ -13,33 +18,10 @@ sections:
         max_files: 1
         type: assets
         display: Logo
-      field_3:
-        sets:
-          set_1:
-            display: 'Set 1'
-            fields:
-              field_1:
-                fieldset: components
-                type: partial
-                display: 'Field 1'
-          set_2:
-            display: 'Set 2'
-            fields:
-              field_1:
-                inline: false
-                type: radio
-                display: 'Field 1'
-              field_2:
-                container: main
-                folder: /
-                restrict: false
-                type: assets
-                display: 'Field 2'
-              field_3:
-                type: textarea
-                display: 'Field 3'
-        type: replicator
-        display: 'Field 3'
+      message_when_page_is_available_only_in_english:
+        type: text
+        localizable: true
+        display: 'Message when page is available only in English'
 taxonomies: true
 title: Navigation
 hide: true

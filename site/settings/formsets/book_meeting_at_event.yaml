@@ -1,0 +1,24 @@
+title: 'Book meeting at event'
+fields:
+  event:
+    display: Subject
+    validate: required
+    placeholder: '{{ title }}'
+    required: true
+  full_name:
+    display: 'Full name'
+    validate: required
+    type: text
+    required: true
+  company_name:
+    display: 'Company name'
+    type: text
+  email:
+    display: Email
+    validate: required|email
+    type: email
+    required: true
+columns:
+  - full_name
+  - company_name
+  - email

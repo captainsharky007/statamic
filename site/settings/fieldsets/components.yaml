@@ -84,6 +84,25 @@ sections:
                 fieldset: table
                 type: partial
                 display: Table
+          form:
+            display: Form
+            fields:
+              form:
+                type: form
+                display: Form
+                validate: required
+              form_template:
+                options:
+                  forms/book_meeting: 'Book meeting'
+                type: select
+                display: 'Form template'
+                validate: required
+              form_title:
+                type: text
+                display: 'Form title'
+              form_description:
+                type: textarea
+                display: 'Form description'
         localizable: true
 taxonomies: true
 title: Components

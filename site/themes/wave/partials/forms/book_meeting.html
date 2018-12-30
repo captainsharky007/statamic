@@ -1,0 +1,15 @@
+<div class="container-fluid my-5 text bg-light">
+	<div class="row">
+		<div class="col">
+      <div class="container my-5">
+        <div class="row {{ globals:horizontal_padding_class }}">
+          <div class="col">
+            <h2>{{ form_title }}</h2>
+            <p>{{ form_description }}</p>
+             {{ partial:forms/form :form_id="form_id" }}
+          </div>
+        </div>
+      </div>
+		</div>
+	</div>
+</div>

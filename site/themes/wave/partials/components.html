@@ -44,6 +44,13 @@
 			{{ partial :src="partial_name" }}
 {{ /if }}
 
+{{ if type=="form" }}
+		{{ form }}
+		  {{ partial :src="form_template" :form_id="value" }}
+			{{ /form }}
+{{ /if }}
+
+
 {{ if type=="table" }}
 			{{ partial:tables/table_default }}
 {{ /if }}
