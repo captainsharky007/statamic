@@ -19,6 +19,7 @@
 <body class="section-{{ segment_1 or "home" }}">
   {{ yield:above_header }}
   {{ partial:nav/nav_1 elementId="nav_1" }}
+  {{ partial:utils/onlyEnglish }}
   {{ yield:below_header }}
 
   {{ template_content }}

@@ -6,14 +6,52 @@ sections:
         max_items: 1
         type: collections
         display: Collection
-      items_on_page:
-        type: text
-        display: 'Items on page'
+        width: 50
+        localizable: true
       collection_list_template:
         options:
           collections/events: Events
         type: select
         display: 'Collection list template'
+        width: 50
+        localizable: true
+      collection_heading:
+        type: text
+        width: 50
+        display: 'Collection heading'
+        localizable: true
+      items_on_page:
+        type: text
+        display: 'Items on page'
+        width: 50
+        localizable: true
+      date_filter:
+        options:
+          all: 'Include all'
+          today_and_future: 'Today and future'
+          before_today: 'Before today'
+        type: select
+        width: 50
+        display: 'Date filter'
+        default: all
+        localizable: true
+      sort_by:
+        options:
+          'event_date:asc': 'Date ascending'
+          'event_date:desc': 'Date descending'
+        type: select
+        localizable: true
+        width: 50
+        display: 'Sort by'
+        default: 'event_date:asc'
+      element_id:
+        type: text
+        width: 50
+        display: 'Element ID'
+      enable_pagination:
+        type: toggle
+        width: 50
+        display: 'Enable pagination'
 taxonomies: true
 title: 'Collection list'
 hide: true

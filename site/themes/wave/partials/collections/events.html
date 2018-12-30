@@ -1,30 +1,49 @@
-<div class="container my-5">
+<!-- TODO: Run myFunction -->
+<div id="{{ element_id }}" class="container my-5">
   <div class="row {{ globals:horizontal_padding_class }}">
     <div class="col">
-      {{ collection from="events" limit="2" url:not="{ url }" }}
+      {{ collection from="events" :limit="items_on_page" url:not="{ url }" :paginate="enable_pagination" filter="date" :date_filter="date_filter" :sort="sort_by" as="entry"  }}
+      <h3>{{ collection_heading }}</h3>
+      {{ if no_results }}
+      <p>Aww, there are no results.</p> But subscribe
+      {{ /if }}
+      {{ posts }}
+      {{ entry }}
       <div class="my-5">
         <div class="row">
           <div class="col-md-auto">
             <img src="{{ theme:asset src="img/icons/48/calendar.svg" }}" width="48" charset="utf-8"></img>
           </div>
           <div class="col">
+            {{ if event_date | is_future  }} <span class="badge badge-primary">COMMING SOON</span>{{ /if }}
+            {{ if event_date | is_today }} <span class="badge badge-danger">HAPPENING TODAY</span> {{ /if }}
             <h3 class="text-dark">{{ title }}</h3>
             <span>{{ event_date }} | {{ event_location }}</span>
             <p>{{ event_description }}</p>
-            <a class="btn btn-secondary" href="{{ id | url }}">Read more</a>
-            {{ unless hide_book_meeting_with_us }}
-            <a class="btn btn-link bookmeeting" onClick="bookmeeting()">Book meeting with us</a>
+            {{ unless hide_book_meeting_with_us || event_date | is_past }}
+            <button class="btn btn-primary bookmeeting" onClick="bookmeeting()">Book meeting with us</button>
             {{ /unless }}
+            <a class="btn btn-secondary" href="{{ id | url }}">Read more</a>
+
           </div>
         </div>
       </div>
       <hr>
+      {{/entry}}
+      {{ paginate }}
+      {{ unless total_pages==1 }}
+      {{ unless current_page=="1" }} <a href="{{ prev_page }}#{{ element_id }}">⬅ Previous</a>{{/unless}}
+      {{ current_page }} of {{ total_pages }} pages
+      (There are {{ total_items }} posts)
+      {{ unless current_page==total_pages }} <a href="{{ next_page }}#{{ element_id }}">Next ➡</a>{{/unless}}
+      {{ /unless }}
+      {{ /paginate }}
       {{ /collection }}
     </div>
   </div>
 </div>
 <script>
-function bookmeeting() {
-  alert('under construction')
-}
+  function bookmeeting() {
+    alert('under construction')
+  }
 </script>

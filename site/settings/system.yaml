@@ -7,7 +7,7 @@ locales:
     full: lv_LV
     name: Latviski
     url: /new/lv/
-timezone: UTC
+timezone: Europe/Riga
 date_format: 'F jS, Y'
 default_extension: md
 filesystems:

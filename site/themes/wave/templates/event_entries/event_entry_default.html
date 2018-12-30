@@ -16,7 +16,7 @@
   </div>
 
   {{ partial:components }}
-  {{ partial src="collections/events" }}
+  {{ partial src="collections/events" :collection_heading="events:other_events_heading" date_filter="today_and_future" }}
 
   {{ section:above_footer}}
   {{ /section:above_footer }}

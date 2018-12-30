@@ -9,6 +9,9 @@ sections:
         fieldset: template
         type: partial
         display: Template
+      available_only_english:
+        type: toggle
+        display: 'Available only in english'
 taxonomies: true
 title: Meta
 hide: true
