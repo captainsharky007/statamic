@@ -60,7 +60,20 @@ components:
     type: partial
     partial_name: footer/footer_1
     full_width_container: true
-    partial_tilte: Footer
+    partial_tilte: Footers
+  -
+    type: partial
+    partial_name: block/price_table
+    full_width_container: true
+  -
+    type: partial
+    partial_name: block/used_by_free_trial
+    full_width_container: true
+  -
+    type: partial
+    partial_name: forms/form_subscribe
+    full_width_container: true
 template: style
+available_only_english: false
 fieldset: default_page
 id: 173f1716-4aef-42b6-9e32-c8f3dba557d4

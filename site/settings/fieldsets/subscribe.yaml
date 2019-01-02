@@ -1,7 +1,19 @@
 sections:
   main:
     display: Main
-    fields: {  }
+    fields:
+      form_title:
+        type: text
+        display: 'Form title'
+        localizable: true
+      form_description:
+        type: textarea
+        display: 'Form description'
+        localizable: true
+      text_on_submit_button:
+        type: text
+        display: 'Text on  submit button'
+        localizable: true
 taxonomies: true
 title: Subscribe
 hide: true

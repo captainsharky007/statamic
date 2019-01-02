@@ -5,6 +5,19 @@ sections:
       form:
         type: form
         display: Form
+      form_template:
+        options:
+          forms/book_meeting: 'Book meeting'
+          forms/form_subscribe: Subscribe
+        type: select
+        display: 'Form template'
+        default: Default
+      form_title:
+        type: text
+        display: 'Form title'
+      form_description:
+        type: textarea
+        display: 'Form description'
 taxonomies: true
 title: Form
 hide: true

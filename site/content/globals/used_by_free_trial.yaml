@@ -1,0 +1,18 @@
+heading: 'Used by 25''000 studios worldwide'
+sub_heading: 'Make your mixes sound better right now'
+buttons:
+  -
+    type: button
+    button_constructor:
+      -
+        type: button_text
+        button_text: 'Download Free Trial'
+      -
+        type: background_color
+        color: primary
+      -
+        type: url_target
+        target_custom: google.lv
+fieldset: used_by_free_trial
+title: 'Used by Free Trial'
+id: d53372f9-73f5-4233-b1c5-c22348934198

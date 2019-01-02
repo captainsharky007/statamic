@@ -17,20 +17,16 @@ sections:
                 fieldset: url_target
                 type: partial
                 display: 'Field 1'
-          text_color:
-            display: 'Text color'
+          button_style:
+            display: 'Button style'
             fields:
-              text_color:
-                fieldset: colors
+              button_style:
+                fieldset: button_styles
                 type: partial
-                display: 'Text color'
-          background_color:
-            display: 'Button Background color'
-            fields:
-              background_color:
-                fieldset: colors
-                type: partial
-                display: 'Background color'
+                display: 'Button style'
+              full_width:
+                type: toggle
+                display: 'Full width'
           icon:
             display: Icon
             fields:

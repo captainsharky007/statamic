@@ -5,7 +5,7 @@ body {
     color: $gray-darker;
 
 }
-.text {
+
   h1,
   h2,
   h3,
@@ -14,7 +14,7 @@ body {
   h6 {
       color: $dark;
   }
-}
+
 
 
 h1,
@@ -131,4 +131,9 @@ small {
         line-height: 9vw;
         letter-spacing: -1px;
     }
+}
+
+.sub-heading {
+    font-weight:400;
+    letter-spacing:-.5px;
 }

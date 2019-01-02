@@ -3,6 +3,8 @@ fields:
   email:
     display: Email
     validate: 'email | required'
+    required: true
+    type: email
 columns:
   - email
 metrics:

@@ -1,0 +1,51 @@
+{{ price_table }}
+<div class="container-fluid bg-light py-96">
+    <div class="row">
+        <div class="col">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-32">
+                        <h2>{{heading}}</h2>
+                        <h3>{{sub_heading}}</h3>
+                    </div>
+                </div>
+                <div class="card-deck mb-32">
+                    {{ column }}
+                    {{ if type=="column"}}
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="mb-1">{{heading}}</h4>
+                            <h4 class="{{color}}">{{sub_heading}}</h4>
+                            <p class="body-large">{{description}}</p>
+                            <div class="d-flex align-items-center my-4">
+                                <h3 class="sub-heading d-inline-flex mb-0 mr-3">{{price}}</h3>
+                                {{ if button_constructor }}
+                                {{ partial:buttons/buttons }}
+                                {{/if}}
+                                {{ if features }}
+                            </div>
+
+                            <ul class="list-unstyled">
+                                {{features}}<li class="border-top py-3 text-body">{{value}}</li> {{/features}}
+                            </ul>
+                            {{/if}}
+                        </div>
+                    </div>
+                    {{/if}}
+                    {{/column}}
+                </div>
+                <div class="text-center">
+                        {{ column }}
+                        {{ if type=="buttons"}}
+                        {{ partial:buttons/buttons }}
+                        {{/if}}
+                        {{/column}}
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+{{/price_table}}

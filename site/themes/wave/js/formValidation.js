@@ -1,43 +1,14 @@
-{{ form:set :is="form_id" }}
-{{ form:create attr="class:needs-validation|novalidate|id:{form_id}" }}
-{{ if errors }}
-       <div class="alert alert-danger">
-           {{ errors }}
-               {{ value }}<br>
-           {{ /errors }}
-       </div>
-   {{ /if }}
-{{ fields }}
-<div class="form-group {{ if required }} required {{ /if }}">
-  <label>{{ trans key="form.{ field }_label" }}</label>
-  <input class="form-control" type="{{ type }}" name="{{ field }}" {{ if placeholder && !old }} value="{{ placeholder }}"{{ else }}value="{{ old }}"{{/if}} {{if required }} required {{/if}} />
-
-  <div class="invalid-feedback">
-    <div class="required" style="display:none;">
-      {{ trans key="form.required" }}
-    </div>
-    <div class="error" style="display:none;">
-      {{ trans key="form.{ field }_error" }}
-    </div>
-  </div>
-</div>
-{{ /fields }}
-<button type="submit" name="Submit" id="">submit</button>
-{{ /form:create }}
-{{ /form:set }}
-
-<script>
   // Example starter JavaScript for disabling form submissions if there are invalid fields
-  (function() {
+  (function () {
     'use strict';
-    window.addEventListener('load', function() {
+    window.addEventListener('load', function () {
       // Fetch all the forms we want to apply custom Bootstrap validation styles to
       var forms = document.getElementsByClassName('needs-validation');
       // Loop over them and prevent submission
-      var validation = Array.prototype.filter.call(forms, function(form) {
-        form.addEventListener('submit', function(event) {
+      var validation = Array.prototype.filter.call(forms, function (form) {
+        form.addEventListener('submit', function (event) {
           if (form.checkValidity() === false) {
-            $(forms).find('input.form-control').each(function(index, element) {
+            $(forms).find('input.form-control').each(function (index, element) {
               var required = $(element).siblings('.invalid-feedback').children('.required');
               var error = $(element).siblings('.invalid-feedback').children('.error');
               if (element.validity.valueMissing) {
@@ -70,13 +41,12 @@
       type: 'POST',
       url: $(form).attr('action'),
       data: formData
-    }).done(function(response) {
+    }).done(function (response) {
       form.trigger('reset');
       form.removeClass('was-validated');
       showSnackBar('Form was submitted successfully.');
       console.log(response);
-    }).fail(function(data) {
+    }).fail(function (data) {
       console.log(data);
     });
   }
-</script>

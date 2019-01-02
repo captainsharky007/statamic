@@ -1,0 +1,48 @@
+sections:
+  main:
+    display: Main
+    fields:
+      heading:
+        type: text
+        localizable: true
+        display: Heading
+      sub_heading:
+        type: textarea
+        localizable: true
+        display: 'Sub heading'
+      column:
+        sets:
+          column:
+            display: Column
+            fields:
+              heading:
+                type: text
+                display: Heading
+              sub_heading:
+                type: textarea
+                display: 'Sub heading'
+              description:
+                type: textarea
+                display: description
+              price:
+                type: text
+                display: Price
+              button:
+                fieldset: button
+                type: partial
+                display: Button
+              features:
+                type: list
+                display: Features
+          buttons:
+            display: Buttons
+            fields:
+              buttons:
+                type: partial
+                display: Buttons
+                fieldset: button
+        type: replicator
+        display: Column
+taxonomies: true
+hide: true
+title: 'Price table'

@@ -66,9 +66,8 @@ components:
         heading: 'Easy to set up'
         text: 'Sonarworks Reference 4 has been optimized to work as a streamlined step-by-step process, which minimizes human error, therefore giving you better results.'
   -
-    type: call_to_action
-    block: 6466c1be-3352-42f5-9099-aaf4d40e0f6c
-  -
-    type: call_to_action
-    block: fc6b6e99-8ca0-4b63-b418-be68603803e4
+    type: form
+    form:
+      - subscribe
+    form_template: forms/form_subscribe
 id: fc6bbd5c-8411-4371-86ef-24dbacf93457

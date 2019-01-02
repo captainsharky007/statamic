@@ -88,21 +88,16 @@ sections:
             display: Form
             fields:
               form:
-                type: form
+                fieldset: form
+                type: partial
                 display: Form
-                validate: required
-              form_template:
-                options:
-                  forms/book_meeting: 'Book meeting'
-                type: select
-                display: 'Form template'
-                validate: required
-              form_title:
-                type: text
-                display: 'Form title'
-              form_description:
-                type: textarea
-                display: 'Form description'
+          block:
+            display: Block
+            fields:
+              block:
+                fieldset: block
+                type: partial
+                display: Block
         localizable: true
 taxonomies: true
 title: Components

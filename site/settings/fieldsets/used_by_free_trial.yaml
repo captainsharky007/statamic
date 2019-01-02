@@ -1,0 +1,23 @@
+sections:
+  main:
+    display: Main
+    fields:
+      heading:
+        type: text
+        display: Heading
+      sub_heading:
+        type: textarea
+        display: 'Sub heading'
+      buttons:
+        sets:
+          button:
+            display: Button
+            fields:
+              field_1:
+                fieldset: button
+                type: partial
+                display: 'Field 1'
+        type: replicator
+        display: Buttons
+taxonomies: true
+title: 'Used by free trial'

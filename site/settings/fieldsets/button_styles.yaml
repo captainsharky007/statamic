@@ -1,0 +1,22 @@
+sections:
+  main:
+    display: Main
+    fields:
+      button_styles:
+        options:
+          default: Default
+          primary: Primary
+          secondary: Secondary
+          link: Link
+          dark: Dark
+          light: Light
+          white: White
+          danger: Danger
+          success: Success
+          warning: Warning
+          info: Info
+        type: select
+        display: 'Button styles'
+taxonomies: true
+hide: true
+title: 'Button styles'

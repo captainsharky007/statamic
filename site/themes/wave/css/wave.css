@@ -8541,6 +8541,10 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: transparent;
 }
 
+.text-headphones {
+  color: #D41280;
+}
+
 .btn {
   font-size: 0.9375rem;
   border-radius: 3.1415px;
@@ -8559,7 +8563,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 0.875rem;
 }
 
-.btn, .btn-lg, .btn-group-lg > .btn, .btn-lg, .btn-group-lg > .btn {
+.btn-primary, .btn-secondary {
   font-weight: bold;
 }
 
@@ -10019,12 +10023,7 @@ body {
   color: #6C727E;
 }
 
-.text h1,
-.text h2,
-.text h3,
-.text h4,
-.text h5,
-.text h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #262931;
 }
 
@@ -10128,6 +10127,11 @@ small {
     line-height: 9vw;
     letter-spacing: -1px;
   }
+}
+
+.sub-heading {
+  font-weight: 400;
+  letter-spacing: -.5px;
 }
 
 .text-shadow {

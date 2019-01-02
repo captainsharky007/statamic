@@ -13,7 +13,6 @@
 	</div>
 </div>
 
-
 {{ components }}
 
 {{ if full_width_container }}
@@ -41,6 +40,9 @@
 							{{ /if }}
 							{{ if type=="partial"}}
 							{{ partial :src="partial_name"}}
+							{{ /if }}
+							{{ if type=="block"}}
+							{{block}}
 							{{ /if }}
 						</div>
 					</div>

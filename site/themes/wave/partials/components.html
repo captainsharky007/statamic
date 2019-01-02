@@ -6,7 +6,7 @@
 
 {{ if type=="text" }}
 
-<div class="container my-5 text">
+<div class="container text">
 	<div class="row {{ globals:horizontal_padding_class }}">
 		<div class="col">
 			{{ text }}
@@ -36,23 +36,27 @@
 {{ partial:call_to_action/centred }}
 {{ /if }}
 
+{{ if type=="block" }}
+{{ block }}
+{{ /if }}
+
 {{ if type=="collection_list" }}
 {{ partial :src="collection_list_template" }}
 {{ /if }}
 
 {{ if type=="partial" }}
-			{{ partial :src="partial_name" }}
+{{ partial :src="partial_name" }}
 {{ /if }}
 
 {{ if type=="form" }}
-		{{ form }}
-		  {{ partial :src="form_template" :form_id="value" }}
-			{{ /form }}
+{{ form }}
+{{ partial :src="form_template" :form_id="value" }}
+{{ /form }}
 {{ /if }}
 
 
 {{ if type=="table" }}
-			{{ partial:tables/table_default }}
+{{ partial:tables/table_default }}
 {{ /if }}
 
 {{ if type=="subscribe" }}

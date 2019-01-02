@@ -1,1 +1,9 @@
-<div class="btn btn-{{ color }}">{{ button_text}}</div>
+{{ if button_constructor }}
+<a class="btn {{button_constructor }}{{ if type=="background_color" }}btn-{{ color }} {{/if}} {{ if type=="button_style" && full_width }}btn-block{{ full}}{{/if}}{{ /button_constructor }}"
+  {{ button_constructor }} {{ if type=="url_target" }} href="{{if target_collection }} {{ target_collection | url }}{{/if}}{{ if target_custom}}{{ target_custom }}{{/if}}"
+  {{/if}} {{ /button_constructor }}>
+  {{ button_constructor }}
+  {{ if type=="button_text" }}{{ button_text }}{{/if }}
+  {{ if type=="icon" }}<img src="{{ icon | url }}" width="24">{{/if }}
+  {{ /button_constructor }}</a>
+{{ /if }}

@@ -1,0 +1,14 @@
+sections:
+  main:
+    display: Main
+    fields:
+      block:
+        options:
+          '{{ partial src="forms/form_subscribe" form_id="subscribe" }}': 'Subscribe block'
+          '{{ partial src="block/used_by_free_trial" }}': 'Used by Free Trial'
+          '{{ partial src="block/price_table" }}': 'Price table'
+        type: select
+        display: Block
+taxonomies: true
+title: Block
+hide: true

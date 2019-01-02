@@ -1,0 +1,92 @@
+heading: 'Three ways to a sound you can trust'
+sub_heading: 'On your headphones and speakers'
+column:
+  -
+    type: column
+    heading: 'Reference 4'
+    sub_heading: 'Headphone edition'
+    color: text-headphones
+    description: 'Best suited for sound creation on headphones'
+    price: '€ 99'
+    button_constructor:
+      -
+        type: button_text
+        button_text: 'Buy now'
+      -
+        type: background_color
+        color: secondary
+    features:
+      - 'Plugin for Headphones'
+      - 'Systemwide app for Headphones'
+  -
+    type: column
+    heading: 'Reference 4'
+    sub_heading: 'Studio edition'
+    color: text-primary
+    description: 'Full package to work on headphones and speakers in your studio'
+    price: '€ 299'
+    button_constructor:
+      -
+        type: button_text
+        button_text: 'Buy now'
+      -
+        type: background_color
+        color: secondary
+    features:
+      - 'Plugin for Headphones and Speakers'
+      - 'Systemwide app for Headphones and Speakers'
+      - 'Measurement software for Speakers'
+  -
+    type: column
+    heading: 'Reference 4'
+    sub_heading: 'Premium Bundle'
+    color: text-muted
+    description: 'Full package for studio and amazing pre-calibrated Sennheiser HD650'
+    price: '€ 699'
+    features:
+      - 'Plugin for Headphones and Speakers'
+      - 'Systemwide app for Headphones and Speakers'
+      - 'Measurement software for Speakers'
+      - 'Pre-calibrated Sennheiser HD650'
+    button_constructor:
+      -
+        type: background_color
+        color: secondary
+      -
+        type: button_text
+        button_text: 'Buy now'
+  -
+    type: buttons
+    button_constructor:
+      -
+        type: button_text
+        button_text: 'See which headphones are supported'
+      -
+        type: icon
+        icon: /new/assets/icons/arrow.svg
+      -
+        type: button_style
+        button_styles: link
+        full_width: true
+      -
+        type: url_target
+        target_custom: '#'
+  -
+    type: buttons
+    button_constructor:
+      -
+        type: button_text
+        button_text: 'Measurement microphone is required for Studio edition'
+      -
+        type: icon
+        icon: /new/assets/icons/arrow.svg
+      -
+        type: button_style
+        button_styles: link
+        full_width: true
+      -
+        type: url_target
+        target_custom: '#'
+fieldset: price_table
+title: 'Price table'
+id: d6b8c01d-83b9-47ce-ae65-b45409594277

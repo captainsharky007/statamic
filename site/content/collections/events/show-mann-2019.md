@@ -6,13 +6,6 @@ components:
   -
     type: image
     image: /new/assets/ishan-seefromthesky-403804-unsplash.jpg
-  -
-    type: form
-    form:
-      - book_meeting_at_event
-    form_template: forms/book_meeting
-    form_title: 'Book a meeting with us'
-    form_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a nulla nec dolor egestas blandit. Pellentesque a nisl dolor. Donec nec faucibus nulla.'
 template: event_entries/event_entry_default
 available_only_english: false
 event_name: 'SHOW MANN 2019'

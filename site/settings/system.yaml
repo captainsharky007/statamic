@@ -46,3 +46,7 @@ redactor:
 yaml_parser: symfony
 send_powered_by_header: true
 ensure_unique_ids: true
+license_key: ''
+csrf_exclude:
+  - '/new/!/Fetch/*'
+php_max_memory_limit: null

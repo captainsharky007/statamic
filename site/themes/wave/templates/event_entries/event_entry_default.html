@@ -17,6 +17,9 @@
 
   {{ partial:components }}
 
+ 
+  {{ partial src="collections/events" :collection_heading="events:other_events_heading" date_filter="today_and_future" }}
+
   {{ partial
     src="forms/book_meeting"
     form_id="book_meeting_at_event"
@@ -24,7 +27,6 @@
     form_description="{ trans:form.book_meeting_form_description }"
   }}
 
-  {{ partial src="collections/events" :collection_heading="events:other_events_heading" date_filter="today_and_future" }}
 
   {{ section:above_footer}}
   {{ /section:above_footer }}

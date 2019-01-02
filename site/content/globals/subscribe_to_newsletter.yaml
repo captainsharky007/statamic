@@ -1,3 +1,5 @@
+form_title: 'Subscribe to newsletter'
+text_on_submit_button: Submit
 fields:
   -
     type: text
@@ -8,6 +10,6 @@ fields:
       - subscribe
 color: dark
 background_color: secondary
-fieldset: call_to_action
+fieldset: subscribe
 title: 'Subscribe to newsletter'
 id: d1d936b1-81c2-43f6-827a-8dc9b15ed08a
