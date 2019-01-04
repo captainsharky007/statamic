@@ -1,39 +1,39 @@
 <div class="container-fluid bg-light text">
   <div class="row">
     <div class="col">
-      <div class="container my-5" >
+      <div class="container my-5">
         <div class="row {{ globals:horizontal_padding_class }}">
           <div class="col">
-              <h2>{{ form_title }}</h2>
-              <p>{{ form_description }}</p>
-              {{ form:set :is="form_id" }}
-              {{ form:create attr="class:needs-validation|novalidate|id:{form_id}" }}
-              {{ if errors }}
-              <div class="alert alert-danger">
-                {{ errors }}
-                {{ value }}<br>
-                {{ /errors }}
-              </div>
-              {{ /if }}
-              {{ fields }}
-              <div class="form-group {{ if required }} required {{ /if }}">
-                <label>{{ trans key="form.{ field }_label" }}</label>
-                <input class="form-control" type="{{ type }}" name="{{ field }}" {{ if placeholder && !old }} value="{{ placeholder }}"
-                  {{ else }} value="{{ old }}" {{/if}} {{if required }} required {{/if}} />
-        
-                <div class="invalid-feedback">
-                  <div class="required" style="display:none;">
-                    {{ trans key="form.required" }}
-                  </div>
-                  <div class="error" style="display:none;">
-                    {{ trans key="form.{ field }_error" }}
-                  </div>
+            <h2>{{ form_title }}</h2>
+            <p>{{ form_description }}</p>
+            {{ form:set :is="form_id" }}
+            {{ form:create attr="class:needs-validation|novalidate|id:{form_id}" }}
+            {{ if errors }}
+            <div class="alert alert-danger">
+              {{ errors }}
+              {{ value }}<br>
+              {{ /errors }}
+            </div>
+            {{ /if }}
+            {{ fields }}
+            <div class="form-group {{ if required }} required {{ /if }}">
+              <label>{{ trans key="form.{ field }_label" }}</label>
+              <input class="form-control" type="{{ type }}" name="{{ field }}" {{ if placeholder && !old }} value="{{ placeholder }}"
+                {{ else }} value="{{ old }}" {{/if}} {{if required }} required {{/if}} />
+
+              <div class="invalid-feedback">
+                <div class="required" style="display:none;">
+                  {{ trans key="form.required" }}
+                </div>
+                <div class="error" style="display:none;">
+                  {{ trans key="form.{ field }_error" }}
                 </div>
               </div>
-              {{ /fields }}
-              <button type="submit" name="Submit" class="btn btn-primary">Submit</button>
-              {{ /form:create }}
-              {{ /form:set }}
+            </div>
+            {{ /fields }}
+            <button type="submit" name="Submit" class="btn btn-primary">Submit</button>
+            {{ /form:create }}
+            {{ /form:set }}
           </div>
         </div>
       </div>

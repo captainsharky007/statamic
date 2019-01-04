@@ -1,0 +1,9 @@
+sections:
+  main:
+    display: Main
+    fields:
+      published:
+        type: toggle
+        display: Published
+taxonomies: true
+title: 'Blog post'

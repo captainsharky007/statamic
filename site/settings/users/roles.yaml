@@ -1,0 +1,8 @@
+6dde7650-2833-46e2-b54f-3ef125f15fca:
+  title: Editor
+  slug: editor
+  permissions:
+    - 'cp:access'
+    - 'collections:blog:view'
+    - 'collections:blog:edit'
+    - 'collections:blog:create'

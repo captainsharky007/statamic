@@ -1,3 +1,4 @@
+published: false
 template: new
 dont_show_on_main_menu: false
 title: 'First blog entry'
